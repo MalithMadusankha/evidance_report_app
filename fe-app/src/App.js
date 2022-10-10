@@ -2,16 +2,15 @@ import "./App.css";
 import SideBar from "./SideBar";
 import TopNavBar from "./TopNavBar ";
 
-
 function App() {
   return (
     <div className="App">
       <div className="container-background"></div>
       <div className="wrapper">
-        <SideBar/>
+        <SideBar />
 
         <div className="main">
-        <TopNavBar/>
+          <TopNavBar />
 
           <main className="content">
             <div className="container-fluid p-0">
@@ -28,13 +27,18 @@ function App() {
                           <div className="card-body">
                             <div className="row">
                               <div className="col mt-0 mb-3">
-                                <h5 className="card-title">Download Instantly</h5>
+                                <h5 className="card-title">
+                                  Download Instantly
+                                </h5>
                               </div>
                             </div>
                             <div className="row">
                               <div className="col-auto">
                                 <div className="stat text-primary">
-                                <i className='bx bx-download' style={{fontSize:26}}></i>
+                                  <i
+                                    className="bx bx-download"
+                                    style={{ fontSize: 26 }}
+                                  ></i>
                                 </div>
                               </div>
                               <div className="col mt-0">
@@ -57,7 +61,10 @@ function App() {
                             <div className="row">
                               <div className="col-auto">
                                 <div className="stat text-primary">
-                                <i class='bx bx-dollar-circle' style={{fontSize:26}}></i>
+                                  <i
+                                    class="bx bx-dollar-circle"
+                                    style={{ fontSize: 26 }}
+                                  ></i>
                                 </div>
                               </div>
                               <div className="col mt-0">
