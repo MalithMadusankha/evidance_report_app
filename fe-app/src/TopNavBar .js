@@ -5,7 +5,7 @@ export default function TopNavBar() {
         <>
           <nav className="navbar navbar-expand navbar-light navbar-bg">
             <a className="sidebar-toggle js-sidebar-toggle">
-              <i className="hamburger align-self-center"></i>
+              <i class="hamburger align-self-center"></i>
             </a>
 
             <div className="navbar-collapse collapse">
@@ -18,7 +18,7 @@ export default function TopNavBar() {
                     data-bs-toggle="dropdown"
                   >
                     <div className="position-relative">
-                      <i className="align-middle" data-feather="bell"></i>
+                    <i class='bx bx-bell'></i>
                       <span className="indicator">4</span>
                     </div>
                   </a>
@@ -117,7 +117,7 @@ export default function TopNavBar() {
                     <span className="text-dark">Kaveena Jayasekara</span>
                   </a>
                   <div className="dropdown-menu dropdown-menu-end">
-                    <a className="dropdown-item" href="pages-sign-in.html">
+                    <a className="dropdown-item" href="/signin">
                       Log out
                     </a>
                   </div>

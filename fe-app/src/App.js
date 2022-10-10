@@ -34,10 +34,7 @@ function App() {
                             <div className="row">
                               <div className="col-auto">
                                 <div className="stat text-primary">
-                                  <i
-                                    className="align-middle"
-                                    data-feather="download"
-                                  ></i>
+                                <i className='bx bx-download' style={{fontSize:26}}></i>
                                 </div>
                               </div>
                               <div className="col mt-0">
@@ -60,10 +57,7 @@ function App() {
                             <div className="row">
                               <div className="col-auto">
                                 <div className="stat text-primary">
-                                  <i
-                                    className="align-middle"
-                                    data-feather="dollar-sign"
-                                  ></i>
+                                <i class='bx bx-dollar-circle' style={{fontSize:26}}></i>
                                 </div>
                               </div>
                               <div className="col mt-0">

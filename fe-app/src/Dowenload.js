@@ -26,7 +26,7 @@ function Dowenload() {
 									<div class="row">
 										<div class="col-auto">
 											<div class="stat text-primary">
-												<i class="align-middle" data-feather="file-text"></i>
+											<i class='bx bxs-file-doc' style={{fontSize: 26}}></i>
 											</div>
 										</div>
 										<div class="col mt-0">
@@ -51,7 +51,7 @@ function Dowenload() {
 									<div class="row">
 										<div class="col-auto">
 											<div class="stat text-primary">
-												<i class="align-middle" data-feather="file-text"></i>
+											<i class='bx bxs-file-pdf' style={{fontSize: 26}}></i>
 											</div>
 										</div>
 										<div class="col mt-0">

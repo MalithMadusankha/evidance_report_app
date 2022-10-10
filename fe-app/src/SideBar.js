@@ -15,7 +15,7 @@ export default function SideBar() {
               <li className="sidebar-item active">
                 <a className="sidebar-link" href="/home">
                   <i className="align-middle" data-feather="home"></i>{" "}
-                  <span className="align-middle">Home</span>
+                  <span className="align-middle"> Home</span>
                 </a>
               </li>
               <li className="sidebar-item">
